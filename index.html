@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aagam Jain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        /* background-color: aqua; */
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        /* font-size: 1.04rem; */
+      }
+
+      main hr {
+        color: rgb(153, 153, 226);
+        font-size: 1.01rem;
+        height: 1.2px;
+        margin: 0 30px 60px 30px;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0;
+      }
+
+      .firstSection > div {
+        width: 40%;
+        margin: auto;
+        /* background-color: red; */
+      }
+
+      .leftSection {
+        font-size: 3rem;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+
+      #element {
+        color: rgb(170, 107, 228);
+      }
+
+      .secondSection {
+        max-width: 90vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      .secondSection .box {
+        background-color: white;
+        width: 75vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 140px;
+      }
+
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -30px;
+        left: -9px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 60px;
+        width: 200px;
+        font-size: 15px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 60px;
+        color: gray;
+        width: 200px;
+        font-size: 12px;
+      }
+
+      .thirdSection {
+        max-width: 90vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .thirdSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .thirdSection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .thirdSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .fourthSection {
+        max-width: 90vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .fourthSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .fourthSection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .fourthSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 190px;
+      }
+
+    
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aagam.</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">About Me</a></li>
+            <li><a href="#exp">Experience</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Aagam</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="exp" class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Internship & Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="bsnl.png" alt="" />
+            <div class="vertical-title">BSNL Internship(June 19-July 20)</div>
+            <div class="vertical-desc">
+              Training in Basic Telecommunication technology and successfully
+              completed the course from Bharat Sanchar Nigam Limited.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="tech.png" alt="" />
+            <div class="vertical-title">
+              Technostrap Digital Pvt. Ltd. - Trainee(Feb 2021-May 2021)
+            </div>
+            <div class="vertical-desc">
+              1. Complete 4 months of Internship Programme on "Website
+              Developement"<br />
+              2. Learn various skills sucs as HTML5, CSS, and working on Web
+              Application.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="cogni.png" alt="" />
+            <div class="vertical-title">
+              Programmer Analyst Trainee at Cognizangt(Feb 2022-Feb 2023)
+            </div>
+            <div class="vertical-desc">1. Part of IBM integration team.</div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="cogni.png" alt="" />
+            <div class="vertical-title">
+              Programmer Analyst(Feb 2023-till date)
+            </div>
+            <div class="vertical-desc">
+              Create & Implement frontend solution for web application, ensuring
+              a seamless and intutive user experience.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="skill" class="thirdSection">
+        <h1>Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="skills/html.png" alt="" />
+            <div class="vertical-title">HTML 5(Hyper Text Markup Language)</div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="skills/css.png" alt="" />
+            <div class="vertical-title">CSS (Cascading Style Sheet)</div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="skills/js.png" alt="" />
+            <div class="vertical-title">JS(Java Script)</div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="skills/sql.png" alt="" />
+            <div class="vertical-title">
+              DBMS (Database Management System) & SQL(Structured Query Language)
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="skills/react.png" alt="" />
+            <div class="vertical-title">React JS</div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="project" class="fourthSection">
+        <h1>Projects</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="skills/html.png" alt="" />
+            <div class="vertical-title">Trash Skimmer(Self Learning Project)</div>
+            <div class="vertical-desc">1.In this project Rotational mechanism inbuilt for cleaning the river and ponds, because the 
+               unwanted can.</div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="skills/html.png" alt="" />
+            <div class="vertical-title">Razorpay clone(Self Learning Project)</div>
+            <div class="vertical-desc">Create a Razorpay Clone by using HTML, Advance CSS and Tailwind Framework.First setup the tailwind setup with CDN files then use html and CSS.</div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="skills/html.png" alt="" />
+            <div class="vertical-title">Registration Form</div>
+            <div class="vertical-desc">Create a Registration Form with help of ReactJS, JSX Code and also use Usestate hook for form Validation. </div>
+          </div>
+
+         
+        </div>
+      </section>
+    </main>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Programmer Analyst"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
